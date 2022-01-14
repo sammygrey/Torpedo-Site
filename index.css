@@ -1,0 +1,149 @@
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  padding: 0;
+  background-color: #7d4698;
+  color: #f8f9fa;
+}
+
+h1 {
+  font-size: 56px;
+}
+
+h2 {
+  color: #59316b;
+  padding: 2em;
+  text-align: center;
+  font-size: 42px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+p {
+  font-size: 20px;
+}
+
+header {
+  padding-left: 5em;
+  padding-right: 5em;
+  display: flex;
+  flex-direction: row;
+}
+
+header > button {
+  margin-left: 5em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+#text {
+  justify-content: center;
+  background-color: #f8f9fa;
+  color: #000;
+}
+
+span {
+  margin-left: 750px;
+  margin-right: 750px;
+  display: flex;
+  flex-direction: row;
+}
+
+span > div {
+  padding: 50px;
+  align-items: center;
+}
+
+div > h3,
+div > h4 {
+  color: #7d4698;
+}
+
+#disclaimer {
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+  font-size: 16px;
+}
+
+li {
+  padding-bottom: 1em;
+  text-align: left;
+}
+
+footer {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+footer > section {
+  font-size: 20px;
+  width: 2em;
+  height: 2em;
+  padding: 2em;
+}
+
+#download:hover {
+  border-color: #7d4698;
+  background-color: white;
+  color: #7d4698;
+}
+
+header > a > #download {
+  float: right;
+  font-size: 24;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: white;
+  background-color: #7d4698;
+  color: white;
+  margin-left: 1750px;
+  margin-top: 55px;
+  margin-bottom: 55px;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  padding-left: 4em;
+  padding-right: 4em;
+}
+
+header > #donate {
+  border-style: none;
+  border-radius: 10px;
+  background-color: yellow;
+  margin-top: 55px;
+  margin-bottom: 55px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+footer > section {
+  text-align: left;
+  margin-left: 75px;
+}
+
+li > #donate {
+  border-style: none;
+  border-radius: 10px;
+  background-color: yellow;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+li > a > #download {
+  border-style: solid;
+  border-radius: 10px;
+  border-color: white;
+  background-color: #7d4698;
+  color: white;
+}
