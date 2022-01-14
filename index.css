@@ -1,6 +1,7 @@
 body {
   font-family: "Source Sans Pro", sans-serif;
   padding: 0;
+  margin: 0;
   background-color: #7d4698;
   color: #f8f9fa;
 }
@@ -31,6 +32,8 @@ p {
 header {
   padding-left: 5em;
   padding-right: 5em;
+  padding-bottom: 0;
+  padding-top: 0;
   display: flex;
   flex-direction: row;
 }
@@ -42,6 +45,7 @@ header > button {
 }
 
 #text {
+  padding-top: 0;
   justify-content: center;
   background-color: #f8f9fa;
   color: #000;
@@ -85,13 +89,15 @@ footer {
   position: relative;
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
 footer > section {
   font-size: 20px;
   width: 2em;
   height: 2em;
-  padding: 2em;
+  padding-left: 7em;
+  padding-right: 7em;
 }
 
 #download:hover {
@@ -109,22 +115,23 @@ header > a > #download {
   background-color: #7d4698;
   color: white;
   margin-left: 1750px;
-  margin-top: 55px;
-  margin-bottom: 55px;
+  margin-top: 50px;
+  margin-bottom: 50px;
   padding-top: 2em;
   padding-bottom: 2em;
   padding-left: 4em;
   padding-right: 4em;
 }
 
-header > #donate {
+header > a > #donate {
+  margin-top: 60px;
+  margin-left: 25px;
   border-style: none;
   border-radius: 10px;
   background-color: yellow;
-  margin-top: 55px;
-  margin-bottom: 55px;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: bold;
+  padding: 0.5em;
 }
 
 footer > section {
@@ -132,7 +139,7 @@ footer > section {
   margin-left: 75px;
 }
 
-li > #donate {
+li > a > #donate {
   border-style: none;
   border-radius: 10px;
   background-color: yellow;
