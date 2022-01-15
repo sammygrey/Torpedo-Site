@@ -51,6 +51,10 @@ header > button {
   color: #000;
 }
 
+a {
+  padding: 0;
+}
+
 span {
   margin-left: 750px;
   margin-right: 750px;
